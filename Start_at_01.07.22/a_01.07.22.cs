@@ -28,12 +28,22 @@ namespace Start_at_01._07._22
               Console.WriteLine("Сумма чисел равна =  " + value+value2);
             */
 
-            string f = "5,4";
+            Console.WriteLine("Ввведите число");
 
-            double a = Convert.ToDouble(f);
+            int value; 
+            int.TryParse(Console.ReadLine(),out value );
 
-            Console.ReadLine();
-
+            int test = value % 2;
+            if (value == 0)
+            {
+                Console.WriteLine("Введите целое число");
+                
+            }   
+            if (test == 1)
+             Console.WriteLine("Число не чётное");
+            
+            else
+             Console.WriteLine("Число  чётное");
             
 
         }
