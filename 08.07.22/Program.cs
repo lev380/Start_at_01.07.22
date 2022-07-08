@@ -21,7 +21,7 @@ namespace _08._07._22
 
             b1 = Convert.ToInt32(b);
 
-            Console.WriteLine(a1 + b1); ;
+            Console.WriteLine("Сумма чисел= " + (a1 + b1)); 
         }
     }
 }
