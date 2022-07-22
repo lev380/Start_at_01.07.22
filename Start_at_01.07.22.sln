@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "08.07.22", "08.07.22\08.07.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Calc_Sw", "Calc_Sw\Calc_Sw.csproj", "{5927E1CB-C7A6-4B2C-9A91-7E93CEE1D1E3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Even_Count", "Even_Count\Even_Count.csproj", "{9EEDA325-CC8C-46D2-AA4D-9851E1B6F4B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Even_Count", "Even_Count\Even_Count.csproj", "{9EEDA325-CC8C-46D2-AA4D-9851E1B6F4B9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hom_Work_Triangle", "Hom_Work_Triangle\Hom_Work_Triangle.csproj", "{A32C7529-5836-4A44-BBF2-CC8860C2AEB9}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{9EEDA325-CC8C-46D2-AA4D-9851E1B6F4B9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9EEDA325-CC8C-46D2-AA4D-9851E1B6F4B9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9EEDA325-CC8C-46D2-AA4D-9851E1B6F4B9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A32C7529-5836-4A44-BBF2-CC8860C2AEB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A32C7529-5836-4A44-BBF2-CC8860C2AEB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A32C7529-5836-4A44-BBF2-CC8860C2AEB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A32C7529-5836-4A44-BBF2-CC8860C2AEB9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
