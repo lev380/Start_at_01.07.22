@@ -55,8 +55,26 @@ namespace Hom_Work_Triangle
                 
                 Console.WriteLine();
             }
+            Console.WriteLine();
+            //Треугольник №4
 
-            
+            //         0     1    5    +1
+            for (int s = 1; s <= size; s++)
+            {
+                //          1   1   5    +1
+                for (int v = 1; v < s; v++)
+                {
+                    Console.Write("0");
+                }
+                //          1      5    1   5   -1
+                for (int i = 1, e = size; i < e; )
+                {
+                    e--;
+                    Console.Write("*");
+                }
+                Console.WriteLine();
+            }
+            Console.WriteLine();
 
         }
     }
