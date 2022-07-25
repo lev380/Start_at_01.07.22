@@ -41,21 +41,23 @@ namespace Hom_Work_Triangle
 
             //Треугольник №3
 
-            
-            int i, j; 
-            for (i=0; i <= size; i++)
+            //         0     0    5    +1
+            for (int s = 0; s < size; s++)
             {
-                for (j = 1; j < size; j++)
-                {                    
-                    Console.Write("#");
-                }
-                for (int h = size ; h <= size; h--)
+                for (int v = size-1; v > s; v--)
                 {
-                    Console.WriteLine("*");
+                    Console.Write(" ");
                 }
+                for (int v = 0; v <= s; v++)
+                {
+                    Console.Write("*");
+                }
+                
                 Console.WriteLine();
             }
+
             
+
         }
     }
 }   
